@@ -1,10 +1,9 @@
 <?php
 class DBController {
-	private $host = "localhost";
-	private $user = "root";
+	private $host = "";
+	private $user = "";
 	private $password = "";
-	//private $password = "=#mum2P@9t#&";
-	private $database = "seasons_basket";
+	private $database = "";
 	private $connection = "";
 	
 	function __construct() {
